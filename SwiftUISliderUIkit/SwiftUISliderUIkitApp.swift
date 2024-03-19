@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUISliderUIkitApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(contentViewVM: ContentViewViewModel())
         }
     }
 }
